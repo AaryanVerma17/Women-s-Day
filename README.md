@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Here are your Instructions
+# Voices of Her - Women's Day Tribute Wall
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack web application for Women's Day, allowing users to share, view, and celebrate tributes to inspiring women. It features a tribute wall, card generator, acts of appreciation, and profiles of inspiring women.
 
-## Available Scripts
+## Features
+- Share heartfelt tributes to women in your life
+- View and like tributes on the Tribute Wall
+- Generate and download Women's Day cards
+- Explore acts of appreciation and inspiring women profiles
 
-In the project directory, you can run:
+## Tech Stack
+- **Frontend:** React, TailwindCSS, Framer Motion
+- **Backend:** FastAPI, MongoDB
 
-### `npm start`
+## Running Locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Backend
+1. Install Python dependencies:
+   ```powershell
+   pip install -r backend/requirements.txt
+   ```
+2. Set up your `.env` file in `backend/` with MongoDB connection details:
+   ```env
+   MONGO_URL=mongodb://localhost:27017
+   DB_NAME=tribute_wall
+   CORS_ORIGINS=http://localhost:3000
+   ```
+3. Start the backend server:
+   ```powershell
+   uvicorn backend.server:app --reload --port 8000
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+1. Install dependencies:
+   ```powershell
+   cd frontend
+   yarn install
+   ```
+2. Start the frontend:
+   ```powershell
+   yarn start
+   ```
 
-### `npm test`
+## Deploying to Render
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- Create a new **Web Service** on Render
+- Use `uvicorn backend.server:app --host 0.0.0.0 --port 8000` as the start command
+- Add environment variables for MongoDB and CORS
 
-### `npm run build`
+### Frontend
+- Create a new **Static Site** on Render
+- Set build command: `yarn build`
+- Set publish directory: `frontend/build`
+- Update `REACT_APP_BACKEND_URL` in `.env` to your Render backend URL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## No Emergent.sh Traces
+All references to emergent.sh, emergentagent.com, and related packages have been removed. The project is now fully independent and ready for open deployment.
