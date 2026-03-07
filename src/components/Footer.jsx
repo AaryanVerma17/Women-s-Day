@@ -1,4 +1,4 @@
-import { Heart, Instagram, Twitter, Facebook } from "lucide-react";
+import { Heart, Instagram, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -35,25 +35,18 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex justify-center gap-4">
             <a
-              href="#"
+              href="https://www.instagram.com/bookish__strokes/"
               className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-200"
               data-testid="social-instagram"
             >
               <Instagram className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/aaryanverma2007/"
               className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-              data-testid="social-twitter"
+              data-testid="social-linkedin"
             >
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a
-              href="#"
-              className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-              data-testid="social-facebook"
-            >
-              <Facebook className="w-5 h-5" />
+              <Linkedin className="w-5 h-5" />
             </a>
           </div>
 

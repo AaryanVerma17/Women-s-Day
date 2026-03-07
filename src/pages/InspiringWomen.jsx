@@ -5,7 +5,7 @@ const inspiringWomen = [
   {
     name: "Marie Curie",
     years: "1867 - 1934",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/440px-Marie_Curie_c1920.jpg",
+    image: "https://www.google.com/imgres?q=marie%20curie%20best%20quotes&imgurl=https%3A%2F%2Fgraciousquotes.com%2Fwp-content%2Fuploads%2F2020%2F10%2FNothing-in-life-is-to-be-feared-it-is-only-to-be-understood.-Now-is-the-time-to-understand-more-so-that-we-may-fear-less..jpg&imgrefurl=https%3A%2F%2Fgraciousquotes.com%2Fmarie-curie%2F&docid=qXydK3ymG1VSpM&tbnid=I3S0vgzZFY6PnM&vet=12ahUKEwjdvuPW2Y6TAxUx1TgGHQGMJJcQnPAOegQIGBAB..i&w=800&h=800&hcb=2&ved=2ahUKEwjdvuPW2Y6TAxUx1TgGHQGMJJcQnPAOegQIGBAB",
     role: "Physicist & Chemist",
     bio: "Marie Curie was a Polish-born physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win Nobel Prizes in two different sciences, and the first woman to become a professor at the University of Paris.",
     achievement: "First woman to win a Nobel Prize and only person to win Nobel Prizes in two different sciences",
@@ -14,7 +14,7 @@ const inspiringWomen = [
   {
     name: "Kalpana Chawla",
     years: "1962 - 2003",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg/440px-Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg",
+    image: "https://www.google.com/imgres?q=kalpana%20chawla%20best%20quotes&imgurl=https%3A%2F%2Fgraciousquotes.com%2Fwp-content%2Fuploads%2F2020%2F07%2FWhen-you-look-at-the-stars-and-the-galaxy-you-feel-that-you-are-not-just-from-any-particular-piece-of-land-but-from-the-solar-system..jpg&imgrefurl=https%3A%2F%2Fgraciousquotes.com%2Fkalpana-chawla%2F&docid=jW8UHY63bXl7vM&tbnid=gUGAN1G6mlvLlM&vet=12ahUKEwiJ-9_t2Y6TAxXl1DgGHSnxLHIQnPAOegQIHRAB..i&w=800&h=800&hcb=2&ved=2ahUKEwiJ-9_t2Y6TAxXl1DgGHSnxLHIQnPAOegQIHRAB",
     role: "Astronaut & Engineer",
     bio: "Kalpana Chawla was an American astronaut and aerospace engineer who was the first woman of Indian origin to go to space. She first flew on Space Shuttle Columbia in 1997 as a mission specialist and primary robotic arm operator.",
     achievement: "First Indian-born woman to travel to space, inspiring millions to dream beyond the sky",
@@ -23,7 +23,7 @@ const inspiringWomen = [
   {
     name: "Malala Yousafzai",
     years: "Born 1997",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Shinzo_Abe_and_Malala_Yousafzai_%281%29.jpg/440px-Shinzo_Abe_and_Malala_Yousafzai_%281%29.jpg",
+    image: "https://www.google.com/imgres?q=malala%20yousafzai%20best%20quotes&imgurl=https%3A%2F%2Fcdn.prod.website-files.com%2F5f6cc9cd16d59d990c8fca33%2F62c4ad43b38ffb032354ccda_malala-yousafzai-quotes-famous-1.jpg&imgrefurl=https%3A%2F%2Fwww.goodgoodgood.co%2Farticles%2Fmalala-yousafzai-quotes&docid=--WoWBtmuazwdM&tbnid=-WAonktOnsQFdM&vet=12ahUKEwjz9v_92Y6TAxVyxjgGHe1xHJ0QnPAOegQIJhAB..i&w=1360&h=765&hcb=2&ved=2ahUKEwjz9v_92Y6TAxVyxjgGHe1xHJ0QnPAOegQIJhAB",
     role: "Education Activist",
     bio: "Malala Yousafzai is a Pakistani activist for female education and the youngest Nobel Prize laureate. She is known for human rights advocacy, especially the education of women and children in her native Swat Valley in northwest Pakistan.",
     achievement: "Youngest Nobel Prize laureate, advocating for girls' education worldwide",
@@ -32,7 +32,7 @@ const inspiringWomen = [
   {
     name: "Rosa Parks",
     years: "1913 - 2005",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Rosa_Parks_%28detail%29.jpg/440px-Rosa_Parks_%28detail%29.jpg",
+    image: "https://www.google.com/imgres?q=roza%20parks%20quotes&imgurl=https%3A%2F%2Fwww.azquotes.com%2Fvangogh-image-quotes%2F84%2F42%2FQuotation-Rosa-Parks-To-bring-about-change-you-must-not-be-afraid-to-84-42-21.jpg&imgrefurl=https%3A%2F%2Fwww.azquotes.com%2Fauthor%2F11338-Rosa_Parks&docid=Tj-Co0RG7DFl6M&tbnid=cEgwY8eRs8g1cM&vet=12ahUKEwiD__eU2o6TAxWQjGMGHVfOCKoQnPAOegQIIBAB..i&w=1200&h=640&hcb=2&ved=2ahUKEwiD__eU2o6TAxWQjGMGHVfOCKoQnPAOegQIIBAB",
     role: "Civil Rights Activist",
     bio: "Rosa Parks was an American activist in the civil rights movement best known for her pivotal role in the Montgomery bus boycott. Her refusal to give up her seat to a white passenger on a Montgomery bus sparked a movement that ended legal segregation in America.",
     achievement: "The mother of the civil rights movement, whose courage sparked change across America",
