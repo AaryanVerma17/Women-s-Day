@@ -1,35 +1,45 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Heart, PenLine, Loader2 } from "lucide-react";
 import { Button } from "../components/ui/button";
 import TributeCard from "../components/TributeCard";
-import axios from "axios";
-
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
 
 const TributeWall = () => {
-  const [tributes, setTributes] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    fetchTributes();
-  }, []);
-
-  const fetchTributes = async () => {
-    try {
-      setLoading(true);
-      const response = await axios.get(`${API}/tributes`);
-      setTributes(response.data);
-    } catch (err) {
-      console.error("Error fetching tributes:", err);
-      setError("Unable to load tributes. Please try again later.");
-    } finally {
-      setLoading(false);
+  // Pre-populated tributes for demo/testing
+  const demoTributes = [
+    {
+      id: "demo-1",
+      submitter_name: "Anonymous",
+      relationship: "Mother",
+      message: "Thank you for always inspiring me and supporting my dreams!",
+      likes: 5,
+      image: null,
+      created_at: new Date().toISOString(),
+    },
+    {
+      id: "demo-2",
+      submitter_name: "Anonymous",
+      relationship: "Friend",
+      message: "You are the strongest woman I know. Happy Women's Day!",
+      likes: 3,
+      image: null,
+      created_at: new Date().toISOString(),
+    },
+    {
+      id: "demo-3",
+      submitter_name: "Anonymous",
+      relationship: "Teacher",
+      message: "Your wisdom and kindness changed my life.",
+      likes: 2,
+      image: null,
+      created_at: new Date().toISOString(),
     }
-  };
+  ];
+
+  const [tributes, setTributes] = useState(demoTributes);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleLikeUpdate = (tributeId, newLikes) => {
     setTributes((prev) =>
